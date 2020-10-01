@@ -20,6 +20,10 @@
 		82FB73E45BD03C55CA5DA53E /* libPods-devstrotask-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFFE7039BE36328EC2191F4 /* libPods-devstrotask-tvOSTests.a */; };
 		8B6D7B221BB2544296FA904B /* libPods-devstrotask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B38A2CC31DCEB1B9F0F4A20 /* libPods-devstrotask.a */; };
 		A2BF7A07CA1C6B060786AF21 /* libPods-devstrotask-devstrotaskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E73AE7884933B64AFABC754 /* libPods-devstrotask-devstrotaskTests.a */; };
+		7D47A6D10B78444A8B2AF227 /* Astronaut Jones PB.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB769CA528214954A151FAAC /* Astronaut Jones PB.otf */; };
+		19E17A35F48F48059BDFBFA0 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2FD763EDC4446F4927A4241 /* SourceSansPro-Bold.ttf */; };
+		F6345B540E174D0CBFBC8931 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A607BC5903466381F94C0C /* SourceSansPro-Light.ttf */; };
+		F96A0CF8F41E4AC58C18DADB /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B82198C4A41A48E595F4E03A /* SourceSansPro-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FA59AACCAAB0D0BF5562E2E8 /* Pods-devstrotask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devstrotask.debug.xcconfig"; path = "Target Support Files/Pods-devstrotask/Pods-devstrotask.debug.xcconfig"; sourceTree = "<group>"; };
+		CB769CA528214954A151FAAC /* Astronaut Jones PB.otf */ = {isa = PBXFileReference; name = "Astronaut Jones PB.otf"; path = "../src/assets/fonts/Astronaut Jones PB.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2FD763EDC4446F4927A4241 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; name = "SourceSansPro-Bold.ttf"; path = "../src/assets/fonts/SourceSansPro-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2A607BC5903466381F94C0C /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; name = "SourceSansPro-Light.ttf"; path = "../src/assets/fonts/SourceSansPro-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B82198C4A41A48E595F4E03A /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; name = "SourceSansPro-Regular.ttf"; path = "../src/assets/fonts/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +189,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				27DBB2113063D302ED497717 /* Pods */,
+				5313A49C63EB44708FA839DF /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +206,18 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		5313A49C63EB44708FA839DF /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				CB769CA528214954A151FAAC /* Astronaut Jones PB.otf */,
+				B2FD763EDC4446F4927A4241 /* SourceSansPro-Bold.ttf */,
+				E2A607BC5903466381F94C0C /* SourceSansPro-Light.ttf */,
+				B82198C4A41A48E595F4E03A /* SourceSansPro-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -342,6 +363,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7D47A6D10B78444A8B2AF227 /* Astronaut Jones PB.otf in Resources */,
+				19E17A35F48F48059BDFBFA0 /* SourceSansPro-Bold.ttf in Resources */,
+				F6345B540E174D0CBFBC8931 /* SourceSansPro-Light.ttf in Resources */,
+				F96A0CF8F41E4AC58C18DADB /* SourceSansPro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
