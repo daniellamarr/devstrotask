@@ -114,3 +114,43 @@ export const authStyle = StyleSheet.create({
     marginTop: 20,
   },
 });
+
+export const dashboardStyle = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  content: {
+    padding: 20,
+  },
+  profileIcon: {
+    position: 'absolute',
+    right: 20,
+    top: 65,
+    shadowColor: colors.grayAA,
+    shadowRadius: 10,
+    shadowOffset: {width: 5, height: 10},
+    shadowOpacity: 0.2,
+  },
+  icon: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+  },
+  userItem: {
+    width: '47%',
+    borderRadius: 10,
+    shadowColor: colors.grayAA,
+    shadowRadius: 10,
+    shadowOffset: {width: 5, height: 10},
+    shadowOpacity: 0.2,
+    marginBottom: 10,
+  },
+  itemImage: {
+    width: '100%',
+    height: 150,
+    borderRadius: 10,
+  },
+  itemDetails: {
+    padding: 10,
+  },
+});
